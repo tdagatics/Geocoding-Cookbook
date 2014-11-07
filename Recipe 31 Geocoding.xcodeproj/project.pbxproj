@@ -14,6 +14,7 @@
 		4359C6651A0D36B200A9A306 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4359C6641A0D36B200A9A306 /* Images.xcassets */; };
 		4359C6681A0D36B200A9A306 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4359C6661A0D36B200A9A306 /* LaunchScreen.xib */; };
 		4359C6741A0D36B200A9A306 /* Recipe_31_GeocodingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4359C6731A0D36B200A9A306 /* Recipe_31_GeocodingTests.m */; };
+		4359C67E1A0D36CD00A9A306 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4359C67D1A0D36CD00A9A306 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		4359C66D1A0D36B200A9A306 /* Recipe 31 GeocodingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Recipe 31 GeocodingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4359C6721A0D36B200A9A306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4359C6731A0D36B200A9A306 /* Recipe_31_GeocodingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Recipe_31_GeocodingTests.m; sourceTree = "<group>"; };
+		4359C67D1A0D36CD00A9A306 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4359C67E1A0D36CD00A9A306 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		4359C64B1A0D36B200A9A306 = {
 			isa = PBXGroup;
 			children = (
+				4359C67D1A0D36CD00A9A306 /* CoreLocation.framework */,
 				4359C6561A0D36B200A9A306 /* Recipe 31 Geocoding */,
 				4359C6701A0D36B200A9A306 /* Recipe 31 GeocodingTests */,
 				4359C6551A0D36B200A9A306 /* Products */,

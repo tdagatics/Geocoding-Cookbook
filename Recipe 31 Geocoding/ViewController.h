@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <CLLocationManagerDelegate>
 
+@property (weak, nonatomic) IBOutlet UILabel *outputLabel;
+@property (weak, nonatomic) IBOutlet UITextField *inputText;
+@property (strong, nonatomic) CLGeocoder *geocoder;
+
+- (IBAction)findAddress:(UIButton *)sender;
+- (IBAction)findLocation:(UIButton *)sender;
 
 @end
 
