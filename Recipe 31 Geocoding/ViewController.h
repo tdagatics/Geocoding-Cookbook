@@ -14,6 +14,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *outputLabel;
 @property (weak, nonatomic) IBOutlet UITextField *inputText;
 @property (strong, nonatomic) CLGeocoder *geocoder;
+@property (strong, nonatomic) CLLocationManager *locationManager;
 
 - (IBAction)findAddress:(UIButton *)sender;
 - (IBAction)findLocation:(UIButton *)sender;
